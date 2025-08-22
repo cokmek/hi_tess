@@ -1,0 +1,10 @@
+body {
+    overflow-x: hidden;
+}
+
+#contenido-principal {
+    background-color: #f8f9fa;
+    min-height: 90vh;
+}
+
+

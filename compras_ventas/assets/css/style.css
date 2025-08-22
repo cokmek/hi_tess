@@ -1,0 +1,17 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #resultadosVentas, #resultadosVentas * {
+        visibility: visible;
+    }
+    #resultadosVentas {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .btn, .form-control, form {
+        display: none !important;
+    }
+}
